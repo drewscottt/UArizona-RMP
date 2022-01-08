@@ -8,7 +8,7 @@ import mysql.connector as mysql
 conn = mysql.connect(host="54.184.86.6", database="rmp_ista", user="select_rmp", password="select_rmp")
 ```
 Tables:
-
+<pre>
 * Professor
 +---------------------+--------------+------+-----+---------+-------+  
 | Field               | Type         | Null | Key | Default | Extra |  
@@ -77,4 +77,4 @@ Tables:
 | ProfID         | int          | YES  |     | NULL    |       |  
 | Department     | varchar(100) | YES  |     | NULL    |       |  
 +----------------+--------------+------+-----+---------+-------+  
-
+</pre>
