@@ -8,8 +8,8 @@ import mysql.connector as mysql
 conn = mysql.connect(host="54.184.86.6", database="rmp_ista", user="select_rmp", password="select_rmp")
 ```
 Tables:
-<pre>
 * Professor
+<pre>
 +---------------------+--------------+------+-----+---------+-------+  
 | Field               | Type         | Null | Key | Default | Extra |  
 +---------------------+--------------+------+-----+---------+-------+  
@@ -26,8 +26,10 @@ Tables:
 | EthnicityConfidence | double       | YES  |     | NULL    |       |  
 | InferredEthnicity   | varchar(10)  | YES  |     | NULL    |       |  
 +---------------------+--------------+------+-----+---------+-------+    
+</pre>
 
 * Review
+<pre>
 +---------------+---------------+------+-----+---------+-------+  
 | Field         | Type          | Null | Key | Default | Extra |  
 +---------------+---------------+------+-----+---------+-------+  
@@ -43,8 +45,10 @@ Tables:
 | ProfID        | int           | YES  |     | NULL    |       |  
 | CoursePercent | double        | YES  |     | NULL    |       |  
 +---------------+---------------+------+-----+---------+-------+  
+</pre>
 
 * Department
+<pre>
 +-----------------+--------------+------+-----+---------+-------+  
 | Field           | Type         | Null | Key | Default | Extra |  
 +-----------------+--------------+------+-----+---------+-------+  
@@ -61,8 +65,10 @@ Tables:
 | Percenthispanic | double       | YES  |     | NULL    |       |  
 | Percentnonwhite | double       | YES  |     | NULL    |       |  
 +-----------------+--------------+------+-----+---------+-------+  
+</pre>
 
 * Course
+<pre>
 +----------------+--------------+------+-----+---------+-------+  
 | Field          | Type         | Null | Key | Default | Extra |  
 +----------------+--------------+------+-----+---------+-------+  
